@@ -3,7 +3,8 @@
 resources:
   repositories:
     - repository: self
-      trigger: none
+      trigger: 
+      - branch
 
 variables:
   azureServiceConnection: 'azure subs'
